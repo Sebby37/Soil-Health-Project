@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+
+.center-hor {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.status-box {
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+
+    border: 3px solid;
+    padding: 10px;
+}
+
+table, td {
+    text-align: left;
+    vertical-align: top;
+    
+    border: 3px solid;
+
+    width: 50%;
+    height: auto;
+}
+
+td {
+    padding: 10px;
+    padding-bottom: 20px;
+}

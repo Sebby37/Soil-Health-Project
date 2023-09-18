@@ -1,0 +1,7 @@
+# Ignore all llms
+*.bin
+*.gguf
+
+# Folder ignores
+**/.vscode/
+prototype-old/

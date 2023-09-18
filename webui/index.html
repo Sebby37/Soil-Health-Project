@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="center-hor">
+            <h1>Soil Health Monitor</h1>
+            <!--<div class="center-hor status-box" style="background-color: greenyellow">
+                <h1>STATUS: OK</h1>
+            </div>
+            <br>-->
+            <table class="center-hor">
+                <tr>
+                    <td>
+                        <h2 class="center-hor">Soil</h2>
+                        <p id="moisture"><b>Moisture:</b> Loading...</p>
+                        <p id="nitrogen"><b>Nitrogen:</b> Loading...</p>
+                        <p id="phosphorus"><b>Phosphorus:</b> Loading...</p>
+                        <p id="potassium"><b>Potassium:</b> Loading...</p>
+                    </td>
+                    <td>
+                        <h2 class="center-hor">Weather</h2>
+                        <p id="temperature"><b>Temperature:</b> Loading...</p>
+                        <p id="humidity"><b>Humidity:</b> Loading...</p>
+                        <p id="raining"><b>Raining:</b> Loading...</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <h2 class="center-hor">Ask Questions Using AI</h2>
+            <h5 class="center-hor">Warning: Answers may not be completely accurate</h5>
+            <br>
+            <textarea readonly cols="32" rows="8" style="resize:none;" id="answerBox"></textarea>
+            <br>
+            <br><input type="text" size="26" id="questionInput" maxlength="100" placeholder="Example: Is the soil too moist?">
+            <button onClick="askQuestion();" id="questionButton">Ask Question</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
